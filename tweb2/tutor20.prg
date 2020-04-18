@@ -1,4 +1,4 @@
-//	{% LoadHrb( 'tweb2/lib/tweb.hrb' ) %}
+//	{% LoadHrb( '../tweb2/lib/tweb.hrb' ) %}
 
 #include {% TWebInclude('include/') %}
 
