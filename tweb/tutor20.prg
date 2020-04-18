@@ -1,6 +1,6 @@
-//	{% LoadHrb( 'lib/tweb/tweb.hrb' ) %}
+//	{% LoadHrb( 'lib/tweb.hrb' ) %}
 
-#include {% TWebInclude() %}
+#include {% TWebInclude('include/') %}
 
 #define PATH_DATA 		HB_GetEnv( "PRGPATH" ) + '/data/'
 
